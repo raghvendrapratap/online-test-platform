@@ -1,0 +1,248 @@
+        /* Login */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #login-form {
+            text-align: center;
+            padding: 50px;
+        }
+        
+        input[type=text],
+        input[type=password],
+        input[type=email],
+        input[type=number] {
+            width: 25%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        #submit {
+            font-size: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 15%;
+        }
+        /* Signup */
+        
+        #signup-form,
+        #addtest {
+            text-align: center;
+            padding: 20px;
+        }
+        /* header */
+        
+        .header {
+            background-color: #c59292;
+            padding: 2px;
+            text-align: center;
+        }
+        
+        #wel {
+            background-color: #e4dede;
+            padding: 2px;
+            text-align: center;
+            color: rgb(1, 7, 12);
+        }
+        
+        .footer {
+            margin: 40px 0px;
+            background-color: #444141;
+            padding: 2px;
+            text-align: center;
+        }
+        
+        #logout {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        /* Top navigation */
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /*Button */
+        
+        #addbutton {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        #test {
+            padding-top: 20px;
+            padding-left: 10%;
+        }
+        /* Table view */
+        
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        table td,
+        table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        table tr:hover {
+            background-color: #ddd;
+        }
+        
+        table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #414941;
+            color: white;
+        }
+        
+        #viewbutton,
+        #backbutton,
+        #next,
+        #prev {
+            background-color: #814ace;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 2px 1px;
+            cursor: pointer;
+        }
+        
+        #backbutton {
+            margin-top: 50px;
+            margin-left: 10%;
+        }
+        
+        #deletebutton {
+            background-color: #d63434;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 2px 1px;
+            cursor: pointer;
+        }
+        
+        #testdetail {
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+        
+        #ques {
+            width: 55%;
+        }
+        
+        #addques {
+            padding-left: 10%;
+        }
+        
+        #testdiv1 {
+            display: inline-block;
+            width: 15%;
+            padding: 20px;
+        }
+        
+        #testdiv2 {
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(190, 205, 235);
+            width: 70%;
+            padding: 20px 10px 10px 30px;
+        }
+        
+        #submit1 {
+            font-size: 15px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border: none;
+            cursor: pointer;
+            width: 20%;
+        }
+        
+        .ques {
+            margin: 5px;
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }
+        
+        .span1 {
+            margin: 5px;
+            color: rgb(15, 14, 14);
+            font-weight: bold;
+        }
+        
+        #spanhead {
+            margin: 25px;
+            padding-bottom: 20px;
+            color: rgb(237, 8, 8);
+            font-weight: bold;
+        }
+        
+        #test1 {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+        }
+        
+        #test2 {
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(190, 205, 235);
+            width: 30%;
+            padding: 20px 10px 10px 30px;
+        }
+        
+        .spanq {
+            margin: 5px;
+            color: rgb(15, 14, 14);
+            font-weight: bold;
+        }
